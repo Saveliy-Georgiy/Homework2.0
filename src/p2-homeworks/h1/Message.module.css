@@ -1,0 +1,48 @@
+.mainWrapper {
+    background-color: greenyellow;
+    width: 300px;
+}
+
+.messageWrapper {
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.avatarWrapper {
+
+}
+
+.avatar {
+    width: 35px;
+    border-radius: 30px;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin: 5px 5px 5px;
+    min-height: 50px;
+    width: 200px;
+    background: #e4ecf2;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+.name {
+    color: blue;
+}
+
+.text {
+
+}
+
+.time {
+    align-self: end;
+    color: darkgrey;
+}
+
