@@ -4,4 +4,6 @@
 
 .button {
     margin-left: 7px;
+    border-radius: 20px;
+    background-color: red;
 }

@@ -5,4 +5,21 @@
 .button {
     margin-right: 7px;
     font-size: 18px;
+    border-radius: 10px;
+}
+
+.buttonAll {
+    background-color: green;
+}
+
+.buttonHigh {
+    background-color: cornflowerblue;
+}
+
+.buttonMiddle {
+    background-color: yellow;
+}
+
+.buttonLow {
+    background-color: darkred;
 }
