@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import {v1} from 'uuid'
 import GreetingContainer from './GreetingContainer'
+import s from './HW3.module.css'
 
 export type UserType = {
     _id: string
@@ -18,9 +19,12 @@ function HW3() {
     return (
         <div>
             <hr/>
-            homework 3
+            <div className={s.homeworkWrapper}>
+                <div>homework 3</div>
+                <div className={s.greetingContainer}>
             <GreetingContainer users={users} addUserCallback={addUserCallback}/>
-
+                </div>
+            </div>
             <hr/>
         </div>
     )

@@ -17,4 +17,6 @@
 .button {
     margin: 5px;
     font-size: 16px;
+    background-color: green;
+    border-radius: 10px;
 }
