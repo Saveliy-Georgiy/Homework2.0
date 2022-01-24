@@ -47,12 +47,12 @@ function HW2() {
         <div>
             <hr/>
             <div className={s.homeworkWrapper}>
-            <div>homework 2</div>
+                <div>homework 2</div>
                 <div className={s.listWrapper}>
-            <Affairs
-                data={filteredAffairs}
-                setFilter={setFilter} deleteAffairCallback={deleteAffairCallback}
-            />
+                    <Affairs
+                        data={filteredAffairs}
+                        setFilter={setFilter} deleteAffairCallback={deleteAffairCallback}
+                    />
                 </div>
             </div>
             <hr/>
