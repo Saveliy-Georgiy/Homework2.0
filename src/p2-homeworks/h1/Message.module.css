@@ -1,6 +1,7 @@
 .mainWrapper {
     background-color: greenyellow;
     width: 300px;
+    border-radius: 20px;
 }
 
 .messageWrapper {
