@@ -1,10 +1,12 @@
 .superInput {
-    border: 3px solid lime;
-    background: green;
+    padding: 6px 10px;
+    margin: 4px 0;
+    box-sizing: border-box;
 }
 
 .errorInput {
-    background: red;
+    border: 2px solid red;
+    border-radius: 4px;
 }
 
 .error {
