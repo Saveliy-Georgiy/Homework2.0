@@ -40,7 +40,7 @@ function HW4() {
                 {/*----------------------------------------------------*/}
 
                 <SuperButton>
-                    def
+                    default
                 </SuperButton>
 
                 <SuperButton
