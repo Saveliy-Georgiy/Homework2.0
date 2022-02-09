@@ -10,7 +10,7 @@ function Header() {
             <div className={s.dropdownContent}>
             <NavLink
                 to="/pre-junior"
-                className={navData => navData.isActive ?s.active: s.link}>
+                className={navData => navData.isActive ? s.active: s.link}>
                 pre-junior</NavLink>
             <NavLink
                 to="/junior"

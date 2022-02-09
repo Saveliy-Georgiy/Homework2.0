@@ -19,8 +19,7 @@ function HomeworkRoutes() {
                 <Route path={PATH.PRE_JUNIOR} element={<PreJunior/>}/>
                 <Route path={PATH.JUNIOR} element={<Junior/>}/>
                 <Route path={PATH.JUNIOR_PLUS} element={<JuniorPlus/>}/>
-                <Route element={<Error404/>}/> //не работает (видимо потому что exact убрали)
-                // /Homework2.0#/ начальный путь лежит такой, может из-за этого?...
+                <Route path='*' element={<Error404/>}/>
             </Routes>
         </div>
     )
