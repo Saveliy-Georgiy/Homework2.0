@@ -24,7 +24,8 @@ function HW4() {
         <div>
             <hr/>
             <hr/>
-            homework 4
+            <div className={s.homeworkWrapper}>
+            <div>homework 4</div>
 
             <div className={s.column}>
                 <SuperInputText
@@ -66,9 +67,10 @@ function HW4() {
                 {/*// onChange тоже должен работать*/}
                 <SuperCheckbox checked={checked} onChange={testOnChange}/>
             </div>
+            </div>
+            <hr/>
+            <hr/>
 
-            <hr/>
-            <hr/>
         </div>
     )
 }
