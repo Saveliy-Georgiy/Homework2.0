@@ -43,6 +43,6 @@
 
 .dropdownContent .link:hover {background-color: #ddd;}
 
-.dropdown:hover .dropdownContent {display: flex; flex-direction: row}
+.dropdown:hover .dropdownContent {display: flex; flex-direction: row; position: absolute; width: 270px}
 
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
