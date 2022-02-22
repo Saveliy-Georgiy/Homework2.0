@@ -1,0 +1,11 @@
+.select {
+    width: 80px;
+    padding: 5px;
+}
+
+.option {
+   padding: 5px; 
+}
+.option:checked {
+    background: darkgrey;
+}
