@@ -1,0 +1,30 @@
+.mainWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+    position: relative;
+}
+
+.clockWrapper {
+margin-bottom: 25px;
+    padding-left: 8px;
+}
+
+.time {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+
+}
+
+.date {
+    font-weight: bold;
+    position: absolute;
+}
+
+.buttonWrapper {
+    display: flex;
+    flex-direction: row;
+}
+
