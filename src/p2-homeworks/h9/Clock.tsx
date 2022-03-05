@@ -46,7 +46,7 @@ function Clock() {
             </div>
             <div className={s.buttonWrapper}>
                 <SuperButton onClick={start}>start</SuperButton>
-                <SuperButton onClick={stop}>stop</SuperButton>
+                <SuperButton onClick={stop} red>stop</SuperButton>
             </div>
         </div>
     )
