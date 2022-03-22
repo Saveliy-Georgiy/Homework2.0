@@ -1,0 +1,19 @@
+.homeworkWrapper {
+    margin-left: 10px;
+}
+
+.rangeWrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+.value {
+    text-align: center;
+    width: 30px;
+}
+
+.doubleRangeWrapper {
+    display: flex;
+    flex-direction: row;
+}
